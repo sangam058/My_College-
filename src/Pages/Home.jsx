@@ -18,35 +18,35 @@ const Home = () => {
 
     <section className='py-16 px-6'>
       <h2 className='text-3xl font-bold text-center'>Why choose our college</h2>
-      <div className='max-w-6xl mx-auto grid md:grid-cols-3 gap-6 mt-10 text-center'>
+      <div className='max-w-8xl mx-auto grid md:grid-cols-3 gap-6 mt-10 text-center '>
         <College_card
-        title="Experiance Faculty"
+        tittle="Experiance Faculty"
         description="Learn from really experianced teacher from our institue"
         />
 
-        <College_card
-        title="Modern Campus"
-        description="our classroom provide modern classroom and lab"
+        <College_card 
+        tittle="Modern Campus"
+        description="Our classroom provide modern classroom and lab"
         />
 
         <College_card
-        title="Career support"
-        description = "we help student develope skills for their future careers"
+        tittle="Career support"
+        description = "We help student develope skills for their future careers"
         />
       </div>
     </section>
 
     <section className='bg-gray-100 py-16 px-6'>
       <h2 className='text-3xl font-bold text-center'>Popular courses</h2>
-      <div className='max-w-6xl mx-auot md:grid-cols-3 gap-6 mt-10 text-center ml-40'>
+      <div className='max-w-6xl mx-auot md:grid-cols-3 gap-6 mt-10  text-center ml-40'>
 
         <College_card
-        title="Btech"
+        tittle="Btech"
         description="It is provide extreme level of environment of coding "
         />
-
+        <br />
         <College_card
-        title="Bcom"
+        tittle="Bcom"
         description="This course define the business management and accountacy"
         />
 
